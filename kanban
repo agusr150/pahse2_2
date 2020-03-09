@@ -1,0 +1,62 @@
+Kanban
+
+Buatlah aplikasi Kanban menggunakan Client-server model dengan spesifikasi sebagai berikut:
+
+API Documentation yang meliputi : URLs, HTTP method, request, response (success dan error case)
+Membuat routes sesuai standar REST API
+CRUD endpoints untuk Task, minimal ada:
+title
+category
+Register
+Login menggunakan email & password
+Membuat authorization sehingga user hanya bisa melakukan CRUD terhadap task-nya sendiri
+Social Login (Google/Twitter/Facebook/GitHub)
+NO alert(); please!
+Deploy ke Heroku + Firebase Hosting
+
+
+Monday
+https://devcenter.heroku.com/articles/deploying-nodejs
+https://firebase.google.com/docs/hosting
+
+Tuesday
+Kanban Layout
+
+Buatlah kanban board layout menggunakan HTML dan CSS. Kurang lebih, bentuknya seperti ini:
+https://hacktiv8crossfox.s3-ap-southeast-1.amazonaws.com/phase-2/week-2/projects/kanban/02-layout
+
+https://hacktiv8crossfox.s3-ap-southeast-1.amazonaws.com/phase-2/week-2/projects/kanban/02-layout
+
+Wednesday
+
+https://vuejs.org/v2/guide/
+
+Kanban with Vue
+
+Implementasikan Vue.js pada template yang sudah kamu buat di challenge sebelumnya. Kali ini tidak perlu membuat server terlebih dahulu, simpan saja data tasks-nya di dalam state.
+
+Informasi yang harus ada di tiap task adalah title dan category (Backlog, Todo, Done, Completed)
+
+Cobalah membuat fitur untuk membuat dan menghapus task menggunakan Vue.js!
+
+https://vuejs.org/v2/guide/computed.html
+
+Kanban Server
+
+Buatlah server untuk aplikasi kanban kamu menggunakan Express dan Sequelize dalam format REST API. Minimal, server yang kamu buat harus bisa menyimpan data task milik user yang mempunyai informasi title dan category.
+
+Jangan lupa untuk membuat validasi yang menurut kamu diperlukan dan juga authentication/authorization ^^.
+
+Jika sudah selesai, membuat server. Integrasikan dengan client yang sudah kamu buat sebelumnya. Untuk mengirim request ke server, kamu bisa menggunakan fetch, axios dan lain sebagainya, pilih salah satu aja ya!
+
+Kamu bisa memasang requestnya di instance lifecycle milik Vue.js yang bernama created.
+
+
+Thursday
+https://vuejs.org/v2/guide/components.html
+https://wahyudiputra.com/blog/build-vue-app-with-parcel/
+
+Kanban with reusable components
+
+Buatlah component TaskList dan TaskItem di client kamu agar codenya lebih reusable.
+
