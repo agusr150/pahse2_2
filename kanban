@@ -19,6 +19,22 @@ Monday
 https://devcenter.heroku.com/articles/deploying-nodejs
 https://firebase.google.com/docs/hosting
 
+MY private note:
+heroku: 
+-buat di bagian server
+-kalau ada perubahan jangan lupa git add . , git commit, terus git push heroku master
+-kalau ada beberapa item di env, ditulis di bagian setting, terus ke config vars
+-buat router ('/') hanya untuk cek kalau heroku baca server kita, atau  
+-ganti semua url localhost ke url heroku. Jalankan client tanpa jalankan server. Kalau berfungsi semua, herokunya ok.
+
+firebase:
+- buat di client
+- buat jquery, publish di /
+- buat vue, pubish di dist, lalu npm run build. Jangan lupa di json buat script built nya. Untuk vue js pake parcel index.html sedangkan vue-cli udah ada
+- bila pakai google signin jangan lupa buat client id dengan alamat firebase ini.
+
+
+
 Tuesday
 Kanban Layout
 
@@ -26,6 +42,7 @@ Buatlah kanban board layout menggunakan HTML dan CSS. Kurang lebih, bentuknya se
 https://hacktiv8crossfox.s3-ap-southeast-1.amazonaws.com/phase-2/week-2/projects/kanban/02-layout
 
 https://hacktiv8crossfox.s3-ap-southeast-1.amazonaws.com/phase-2/week-2/projects/kanban/02-layout
+
 
 Wednesday
 
